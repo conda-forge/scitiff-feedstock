@@ -1,5 +1,5 @@
 {% set name = "scitiff" %}
-{% set version = "25.6.0" %}
+{% set version = "25.7.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/scitiff-{{ version }}.tar.gz
-  sha256: 8461ac7be6c5124be146d8bc98798b277721f731766c4b9d8a39bbb25e47d50b
+  sha256: 677051d83f02b8bcc41320cc2ba613df9cb9ee78b2e02b9639c2c4f3232e0f87
 
 build:
   entry_points:
