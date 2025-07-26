@@ -16,7 +16,6 @@ Documentation: https://scipp.github.io/scitiff/
 SciTiff format inherits HyperStacks and define metadata on top of the HyperStacks.
 Scitiff project hosts both metadata schema and io helpers to save/load scitiff images.
 
-
 Current build status
 ====================
 
