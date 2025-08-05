@@ -151,4 +151,5 @@ Feedstock Maintainers
 =====================
 
 * [@YooSunYoung](https://github.com/YooSunYoung/)
+* [@conda-forge/scipp](https://github.com/orgs/conda-forge/teams/scipp/)
 
