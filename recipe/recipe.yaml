@@ -1,6 +1,6 @@
 context:
   name: scitiff
-  version: 25.7.0
+  version: "25.12.0"
   python_min: "3.10"
 
 package:
@@ -9,10 +9,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/scitiff-${{ version }}.tar.gz
-  sha256: 677051d83f02b8bcc41320cc2ba613df9cb9ee78b2e02b9639c2c4f3232e0f87
+  sha256: e218ef68c976bb809675ce0be6f3869c5525175b50f75499ca72ea72201cf676
 
 build:
-  number: 2
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   python:
@@ -27,7 +27,7 @@ requirements:
     - setuptools-scm >=8.0
     - pip
   run:
-    - python >=${{ python_min }} 
+    - python >=${{ python_min }}
     - scipp
     - tifffile
     - jsonschema
