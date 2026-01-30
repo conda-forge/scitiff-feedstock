@@ -1,6 +1,6 @@
 context:
   name: scitiff
-  version: "25.12.0"
+  version: "26.1.0"
   python_min: "3.10"
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/scitiff-${{ version }}.tar.gz
-  sha256: e218ef68c976bb809675ce0be6f3869c5525175b50f75499ca72ea72201cf676
+  sha256: 662f513a35f3291ee19f82eb3a270dbc4557af4fdf64954e7bccc3489c5cee97
 
 build:
   number: 0
