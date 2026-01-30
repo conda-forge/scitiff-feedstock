@@ -28,10 +28,10 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - scipp >= 24.11.0
-    - tifffile >= 2024.7.2
-    - jsonschema >= 4.23.0
-    - pydantic >= 2.11
+    - scipp >=24.11.0
+    - tifffile >=2024.7.2
+    - jsonschema >=4.23.0
+    - pydantic >=2.11
 
 tests:
   - python:
